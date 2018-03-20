@@ -1,0 +1,142 @@
+* {
+	color: black;
+}
+
+body {
+	font-family: Roboto;
+}
+
+h1 {
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	margin: 0px;
+	padding: 10px;
+}
+
+h2, h3 {
+	background: #a5a5a5; /* Old browsers */
+	background: -moz-linear-gradient(top, #a5a5a5 12%, #5f6472 47%, #adadad 91%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #a5a5a5 12%,#5f6472 47%,#adadad 91%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #a5a5a5 12%,#5f6472 47%,#adadad 91%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	margin: 0px;
+	color: white;
+	padding: 5px;
+}
+
+a {
+	color: none;
+}
+
+td {
+	padding: 10px;
+}
+
+.content {
+	display: inline-block;
+	margin: 10px;
+	padding: 0px;
+	vertical-align: top;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(left, #ffffff 16%, #e8c9e4 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #ffffff 16%,#e8c9e4 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #ffffff 16%,#e8c9e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.content p {
+	padding: 0px 10px;
+}
+
+.container {
+	margin: 0px auto;
+	width: 970px;
+	padding: 0px;
+	background: #8e768b; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #8e768b 0%, #512f4d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #8e768b 0%,#512f4d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #8e768b 0%,#512f4d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.entry {
+	max-width: 300px;
+	font-size: 90%;
+}
+
+.entry img {
+	max-width:100%;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.buttoncontainer {
+	display: block;
+	text-align: center;
+}
+
+.button {
+	margin: 10px;
+	display: inline-block;
+	padding: 3px;
+	color: white;
+	text-align: center;
+	background-color: green;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	box-shadow: 5px 5px 5px #4F4F4F;
+}
+
+#header {
+	margin: 0px auto;
+	width: 970px;
+}
+
+#photo {
+	max-width: 400px;
+	background: none;
+}
+
+#photo img {
+	max-width: 400px;
+	margin: 0px;
+	border-color: LightGrey;
+	border-width: 5px;
+	border-style: solid;
+}
+
+#about {
+	max-width: 525px;
+	height: 275px;
+}
+
+#about img {
+	max-width: 500px;
+	margin: 0px;
+}
+
+#contact {
+	text-align: center;
+	margin: 0px auto;
+	width: 970px;
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#contact img {
+	width: 25px;
+	vertical-align: center;
+}
+
+#contact table {
+	margin: 5px auto;
+}
+
+#contact td a{
+	vertical-align: center;
+}
