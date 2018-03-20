@@ -6,15 +6,6 @@ body {
 	font-family: Roboto;
 }
 
-h1 {
-	background: #eeeeee; /* Old browsers */
-	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	margin: 0px;
-	padding: 10px;
-}
-
 h2, h3 {
 	background: #a5a5a5; /* Old browsers */
 	background: -moz-linear-gradient(top, #a5a5a5 12%, #5f6472 47%, #adadad 91%); /* FF3.6-15 */
@@ -23,6 +14,17 @@ h2, h3 {
 	margin: 0px;
 	color: white;
 	padding: 5px;
+}
+
+h1 {
+	margin: 0px 10px;
+	display: inline-block;
+}
+
+h1:nth-of-type(2) {
+	font-size: 100%;
+	margin-top: 10px;
+	margin-right: 40px;
 }
 
 a {
@@ -67,8 +69,8 @@ td {
 	max-width:100%;
 }
 
-.right-align {
-	text-align: right;
+.float-right {
+	float: right;
 }
 
 .buttoncontainer {
@@ -92,7 +94,12 @@ td {
 
 #header {
 	margin: 0px auto;
+	padding: 10px 0px;
 	width: 970px;
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 #photo {
@@ -110,7 +117,7 @@ td {
 
 #about {
 	max-width: 525px;
-	height: 275px;
+	height: 273px;
 }
 
 #about img {
@@ -130,13 +137,14 @@ td {
 
 #contact img {
 	width: 25px;
-	vertical-align: center;
+	vertical-align: bottom;
 }
 
 #contact table {
+	font-style: italic;
 	margin: 5px auto;
 }
 
-#contact td a{
-	vertical-align: center;
+#contact td a {
+	vertical-align: top;
 }
